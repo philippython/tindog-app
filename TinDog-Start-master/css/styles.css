@@ -1,0 +1,144 @@
+body{
+     'Montserrat', sans-serif
+            }
+h1{
+   margin: 40px 0px 0px 0px;
+   color: white;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 3rem;
+   line-height: 1.5;
+    }
+.navbar-brand{
+   margin-left: 0;
+   font-family: 'Ubuntu', sans-serif;
+   font-size: 3rem
+    }
+.container-fluid{
+                 padding: 3% 15% 7%;
+                    }
+.nav-link{
+          margin: 30px;
+          font-size: 1.2rem;
+          'Montserrat', sans-serif
+            }
+.dog{
+      width: 40%;
+      margin: 60px;
+      transform: rotate(25deg);
+      position:absolute;
+      right: 15px
+       }
+.download-button{
+                margin:10px 10px 0px 0px;
+                }
+#title{
+        background-color: #F10086;
+        }
+.fonts{
+        margin-left:11.00rem;
+        margin-bottom: 1.875rem;
+        color:#F10086;
+        font-size: 3rem
+        }
+.fonts:hover{
+            color: #ff4c68
+            }
+h2{
+   text-align: center;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 3rem;
+   line-height: 1.5;
+}
+h3{
+    text-align:center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    color: #fff;
+    }
+
+p{
+    text-align:center;
+    color: #8f8f8f
+    }
+#testimonials{
+               background-color:#ff4c68;
+               text-align: center;
+               color: white
+                }
+.testimonial-image{
+        width:20%;
+        border-radius:50%;
+        margin: 30px;
+}
+
+#press{
+       padding:7% 15%;
+       background-color:#ff4c68;
+       text-align: center;
+}
+.organ{
+       margin:20px;
+       width:20%
+}
+.carousel-item{
+               padding:7% 15%;
+}
+#pricing{
+          padding:100px;
+            }
+.pricing-column{
+                margin:0%;
+                }
+#features{
+            background-color: #fff;
+            position: relative;
+            z-index: 1
+            }
+@media (max-width:995px){
+                    .dog{
+                          width: 40%;
+                          margin: 60px;
+                          position:static;
+                          transform: rotate(0deg);
+                          right: 15px
+                           }
+                    h1{
+                        text-align:center;
+                        }
+
+                    .fonts{
+                            margin-left:15rem;
+                            margin-bottom: 1.875rem;
+                    }
+
+}
+#cta{
+      background-color:#ff4c68;
+      padding: 100px;
+
+      }
+.footer-download-button{
+                        margin: 2% 3% 2% 40%;
+                        }
+.play-download-button{
+                      margin-top: 0%;
+                      }
+#footer{
+        background-color:#fff;
+        padding:200px;
+
+        }
+@media (max-width: 750px){
+        .footer-download-button{                                            margin: 2% 1% 2% 17%;
+                                                    }
+}
+.handle{
+        margin: 2% 1% 2% 45%;
+        }
+
+.mail{
+        margin-left: 1%;
+        }
+.foot{
+     font-size:3.5rem
+}
